@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  background-color: black;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #637a9f !important; /* veya istediğiniz renk */
+}
+
+.masthead {
+  background-image: url(img/header1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.masthead {
+  height: 100lvh;
+}
+/* *Kesfet bolumu */
+.card {
+  cursor: pointer;
+  overflow: hidden;
+}
+.card-body {
+  height: auto;
+  position: relative;
+}
+.card:hover .card-title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.card-b-img {
+  overflow: hidden;
+}
+.card-img {
+  transition: transform 0.2s;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+.haberler .haber-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.haberler .haber-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.haberler .haber-item .haber-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(34, 34, 34, 0.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.haberler .haber-item:hover .haber-item-caption {
+  opacity: 1;
+}
+
+.haberler .haber-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: -1; /* Resmin z-index'i ayarlandı */
+}
+/* *tümünü gör butonu*/
+.btn-all:hover {
+  color: #0062ff !important;
+}
+/* *footer a linkleri */
+.link-text {
+  color: #c7c8cc;
+}
+/* *footer email input */
+.ftr-inp {
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  padding: 0.6rem 2rem;
+  font-size: 16px;
+  border-radius: 0.2rem;
+  color: #fff;
+}
