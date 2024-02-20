@@ -14,6 +14,9 @@
 .masthead {
   height: 100lvh;
 }
+a {
+  text-decoration: none !important;
+}
 /* *Kesfet bolumu */
 .card {
   cursor: pointer;
@@ -25,7 +28,6 @@
 }
 .card:hover .card-title {
   text-decoration: underline;
-  font-weight: bold;
 }
 .card-b-img {
   overflow: hidden;
@@ -84,6 +86,9 @@
 /* *tümünü gör butonu*/
 .btn-all:hover {
   color: #0062ff !important;
+}
+.border-right {
+  border-right: 1px solid #acacac;
 }
 /* *footer a linkleri */
 .link-text {
