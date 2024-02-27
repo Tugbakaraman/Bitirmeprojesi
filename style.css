@@ -21,9 +21,8 @@ body a {
   text-decoration: none;
   color: inherit;
 }
-/* *Kesfet bolumu */
+/* *uzayın gündemi bolumu*/
 .card {
-  cursor: pointer;
   overflow: hidden;
 }
 .card-body {
@@ -108,4 +107,15 @@ body a {
   font-size: 16px;
   border-radius: 0.2rem;
   color: #fff;
+}
+/* *Uzayın gündemi sayfasındaki slider */
+@media (max-width: 768px) {
+  .carousel-caption h1,
+  .carousel-caption p {
+    font-size: 80%; /* Örneğin, mevcut boyutun %80'i */
+  }
+  .carousel-caption a.btn {
+    transform: scale(0.8);
+    text-align: left;
+  }
 }
