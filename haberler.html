@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Uzayın Gündemi</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Haberler</title>
+    <link rel="stylesheet" href="k-style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -69,190 +69,174 @@
         </div>
       </div>
     </nav>
-    <!-- *Slider baslangic -->
-    <header>
-      <div
-        id="carouselAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/k-slide1.jpg" alt="" />
-            <div class="carousel-caption d-md-block text-start mb-2">
-              <h1>TELKOMSAT KIRMIZI BEYAZ 2 GÖREV</h1>
-              <a href="#" class="btn btn-outline-light fs-4 mt-3" role="button"
-                >Daha Fazla</a
-              >
+    <!-- *haberler -->
+    <section class="news">
+      <div class="container" style="padding: 2rem">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="w-100 h-100" src="img/alpergezeravci_1.jpg" alt="" />
             </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/k-slide2.png" alt="" />
-            <div class="carousel-caption d-md-block text-start mb-2">
-              <h1>TÜRKİYE'NİN 8. UYDUSU UZAYDA</h1>
-              <a href="#" class="btn btn-outline-light fs-4 mt-3" role="button"
-                >Daha Fazla</a
-              >
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/k-slide3.png" alt="" />
-            <div class="carousel-caption d-md-block text-start mb-2">
-              <h1>STARSHIP'İN İKİNCİ UÇUŞ TESTİ</h1>
-              <a href="#" class="btn btn-outline-light fs-4 mt-3" role="button"
-                >Daha Fazla</a
+            <div class="col-md-6 p-5">
+              <h2>
+                İLK TÜRK ASTRONOT GEZERAVCI, GAZİANTEP’TE GENÇLERLE BİR ARAYA
+                GELDİ
+              </h2>
+
+              <span class="badge mt-3" style="color: #c7c8cc"
+                >26 Şubat 2024</span
               >
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselAutoplaying"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </header>
-    <!-- *Teknoloji & Bilim cardlarının sıralandığı -->
-    <section class="gundemcards">
-      <div
-        class="container d-flex flex-column justify-content-center w-75 my-5"
-      >
-        <h1
-          class="text-center text-uppercase mb-5"
-          style="font-family: Montserrat, sans-serif"
-        >
-          Teknoloji & Bilim
-        </h1>
-        <h6 class="text-uppercase text-secondary">Son Güncellenenler</h6>
+    </section>
+    <!-- *Öne çıkan haberler -->
+    <section class="featured-news">
+      <div class="container">
+        <h6 class="text-secondary text-uppercase">Öne Çıkan Haberler</h6>
         <hr />
-        <div class="card w-100 mt-3 mb-5">
-          <a class="text-dark" href="card-icerik.html">
-            <div class="row">
-              <div class="col-md-4">
-                <img class="w-100 h-auto" src="img/galaksi.png" alt="" />
+        <div class="row g-3 my-3">
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img src="img/alpergezeravcı.jpg" alt="" />
+              <div class="card-body">
+                <h5>Alper Gezeravcı Uzayda Hangi Deneyleri Yapacak?</h5>
+                <p>
+                  Uzayda bitki yetiştirebilmek, kurulması planlanan Ay ve Mars
+                  üslerinde olduğu kadar bu üslere düzenlenecek
+                </p>
+                <span class="badge text-secondary">28 Şubat 2024</span>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    NASA'nın Hubble Gökada Çarpışmalarındaki Yıldız Kümelerinin
-                    İzini Sürüyor
-                  </h4>
-
-                  <p class="card-text">
-                    Bu NASA/ESA Hubble Uzay Teleskobu görüntüsü, daha uzaktaki
-                    gök cisimlerinden gelen toz, gaz ve ışıktan oluşan bir arka
-                    plan üzerine yerleştirilmiş, yoğun bir şekilde paketlenmiş
-                    yıldız alanını göstermektedir.
-                  </p>
-                  <p class="card-date">
-                    <span class="badge text-secondary p-0">20.02.2024</span>
-                  </p>
-                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img src="img/haber1.jpg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Türkiye’nin İlk Uzay Yolcuları Sorularınızı Cevaplıyor I Alper
+                  Gezeravcı ve Tuva Cihangir Atasever
+                </h5>
+                <p>
+                  Türkiye’nin ilk uzay yolcuları olarak seçilen Alper Gezeravcı
+                  ve Tuva Cihangir Atasever ile
+                </p>
+                <span class="badge text-secondary">28 Şubat 2024</span>
               </div>
-            </div></a
-          >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img src="img/haber2.jpg" alt="" />
+              <div class="card-body">
+                <h5>
+                  Astronutumuz Alper Gezeravcı Ululararası Uzay İstasyonu’ndan
+                  Ne Zaman Dönecek?
+                </h5>
+                <p>
+                  Ax-3 ekibinin Uluslararası Uzay İstasyonu’ndan 2 Şubat 2024
+                  Cuma günü ayrılması planlanıyor.
+                </p>
+                <span class="badge text-secondary">28 Şubat 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img src="img/card1.jpg" alt="" />
+              <div class="card-body">
+                <h5>İlk Astronotumuz Alper GEzeravcı Yurda Döndü</h5>
+                <p>
+                  Gezeravcı, Uluslararası Uzay İstasyonu'nda geçirdiği 18 günün
+                  ardından Türkiye'nin insanlı ilk uzay bilim misyonunu
+                  tamamlayarak 9 Şubat'ta dünyaya iniş yapmıştı.
+                </p>
+                <span class="badge text-secondary">28 Şubat 2024</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="card w-100 mb-5">
-          <a class="text-dark" href="#">
-            <div class="row">
-              <div class="col-md-4">
-                <img class="w-100 h-auto" src="img/kesfet3.jpg" alt="" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Metan Örtüsü Soğuk Güneş Etrafındaki Genç Dünya’yı Sıcak
-                    Tutmuş Olabilir
-                  </h4>
+      </div>
+    </section>
+    <!-- *Güncel haberler -->
+    <section class="latest-news">
+      <div class="container" style="margin-top: 6rem">
+        <h6 class="text-secondary text-uppercase">Güncel Haberler</h6>
+        <hr />
+        <div class="row g-3" style="margin: 2rem 0 5rem 0">
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/card1.jpg" alt="" />
+              <div class="card-body">
+                <h5>Astronotumuz Alper Gezeravcı Yurda Döndü</h5>
 
-                  <p class="card-text">
-                    Astrobiyologlar, Güneş Sistemi’nin erken dönemlerinde Güneş
-                    günümüzdekinden daha soğuk olmasına rağmen Dünya’nın sıcak
-                    kalabilmesinin sebebinin atmosferdeki metan gazı
-                    olabileceğini belirledi.
-                  </p>
-                  <p class="card-date">
-                    <span class="badge text-secondary p-0">20.02.2024</span>
-                  </p>
-                </div>
+                <span class="badge text-secondary">28 Şubat 2024</span>
               </div>
-            </div></a
-          >
-        </div>
-        <div class="card w-100 mb-5">
-          <a class="text-dark" href="#">
-            <div class="row">
-              <div class="col-md-4">
-                <img class="w-100 h-auto" src="img/kesfet2.png" alt="" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    Özel Varda Uzay Kapsülü, Uzayda Yetiştirilen Antiviral
-                    İlaçla Dünya'ya Geri Dönüyor
-                  </h4>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/alpergezeravcı_4.jpg" alt="" />
+              <div class="card-body">
+                <h5>Alper Gezeravcı Uzayda Hangi Deneyleri Yapacak?</h5>
 
-                  <p class="card-text">
-                    Kaliforniyalı startup Varda'nın ilk uzay içi üretim misyonu,
-                    21 Şubat Çarşamba günü öğleden sonra kuzey Utah'taki
-                    kapsülünün yere inmesiyle sona erdi.
-                  </p>
-                  <p class="card-date">
-                    <span class="badge text-secondary p-0">20.02.2024</span>
-                  </p>
-                </div>
+                <span class="badge text-secondary">28 Şubat 2024</span>
               </div>
-            </div></a
-          >
-        </div>
-        <div class="card w-100 mb-5">
-          <a class="text-dark" href="#">
-            <div class="row">
-              <div class="col-md-4">
-                <img class="w-100 h-100" src="img/k-slide1.jpg" alt="" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    SpaceX, Crew-8 Astronotunun Fırlatılması İçin Roket ve
-                    Kapsülü Piyasaya Sürdü
-                  </h4>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/alpergezeravcı_4.jpg" alt="" />
+              <div class="card-body">
+                <h5>Alper Gezeravcı Uzayda Hangi Deneyleri Yapacak?</h5>
 
-                  <p class="card-text">
-                    SpaceX, Cuma günü (Mart) ISS'ye Crew-8 astronot görevini
-                    başlatacak olan Falcon 9 roketini ve Dragon kapsülünü
-                    piyasaya sürdü.
-                  </p>
-                  <p class="card-date">
-                    <span class="badge text-secondary p-0">20.02.2024</span>
-                  </p>
-                </div>
+                <span class="badge text-secondary">28 Şubat 2024</span>
               </div>
-            </div></a
-          >
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/alpergezeravcı_4.jpg" alt="" />
+              <div class="card-body">
+                <h5>Alper Gezeravcı Uzayda Hangi Deneyleri Yapacak?</h5>
+
+                <span class="badge text-secondary">28 Şubat 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/alpergezeravcı_4.jpg" alt="" />
+              <div class="card-body">
+                <h5>Alper Gezeravcı Uzayda Hangi Deneyleri Yapacak?</h5>
+
+                <span class="badge text-secondary">28 Şubat 2024</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/alpergezeravcı_4.jpg" alt="" />
+              <div class="card-body">
+                <h5>Alper Gezeravcı Uzayda Hangi Deneyleri Yapacak?</h5>
+
+                <span class="badge text-secondary">28 Şubat 2024</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- *pagination -->
-        <div class="d-flex justify-content-center align-items-center">
+        <!-- *Pagination -->
+        <div class="d-flex justify-content-center align-items-center my-5">
           <ul class="pagination">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">1</a>
+            </li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
             <li class="page-item">
@@ -264,7 +248,6 @@
         </div>
       </div>
     </section>
-
     <footer style="width: 100%; background-color: black">
       <div class="container" style="padding-top: 6rem">
         <div class="row justify-content-between">

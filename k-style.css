@@ -40,35 +40,62 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.gezegenler .card {
+.bolum .card {
   cursor: pointer;
-  display: flex;
+  margin: 1rem auto;
 }
-.gezegenler .card-body {
+.bolum .card-body {
   height: 18rem;
   overflow: hidden;
   position: relative;
 }
-.gezegenler .card-body .tags {
+.bolum .card-body .tags {
   position: absolute;
   bottom: 1rem;
 }
-@media (max-width: 768px) {
-  .header-card {
-    overflow-x: auto; /* Yatay kaydırma çubuğu eklemek için */
-  }
-  .col-md-2 {
-    margin: 0;
-    padding: 0;
-    right: 0;
-    flex: 0 0 calc(50% - 20px);
-    flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch; /* mobilde dokunmatik kaydırma*/
-  }
-  .row {
-    margin-right: 0;
-    margin-left: 0;
-  }
+/* *haberler sayfasındaki kardlar */
+.news .card {
+  background-color: #0b0b0b;
+  color: white;
+  cursor: pointer;
+  margin: 3rem 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.featured-news .card {
+  height: 29rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+.featured-news .card-body span {
+  position: absolute;
+  bottom: 1rem;
+}
+.featured-news img {
+  max-height: 10rem;
+}
+.latest-news .card {
+  margin-bottom: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+.news .card:hover {
+  background-color: #61677a;
+}
+.featured-news .card:hover .card-body h5,
+.latest-news .card:hover .card-body h5 {
+  text-decoration: underline;
+  color: #637a9f;
+}
+.latest-news img {
+  min-height: 9rem;
+}
+/* *Pagination */
+.pagination .page-link {
+  background-color: #0b0b0b;
+  color: #fff;
 }
 /* *footer a linkleri */
 .link-text {

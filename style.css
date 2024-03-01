@@ -21,7 +21,7 @@ body a {
   text-decoration: none;
   color: inherit;
 }
-/* *uzayın gündemi bolumu*/
+/* *anasayfa uzayın gündemi bolumu*/
 .card {
   overflow: hidden;
 }
@@ -44,15 +44,9 @@ body a {
 .card:hover .card-img {
   transform: scale(1.1);
 }
-.haberler .haber-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
+.gundemcards .card img {
+  max-height: 14rem;
 }
-
 .haberler .haber-item {
   cursor: pointer;
   position: relative;
@@ -93,6 +87,11 @@ body a {
 .border-right {
   border-right: 1px solid #acacac;
 }
+/* *Pagination */
+.pagination .page-link {
+  background-color: #0b0b0b;
+  color: #fff;
+}
 /* *footer a linkleri */
 .link-text {
   color: #c7c8cc;
@@ -110,6 +109,9 @@ body a {
 }
 /* *Uzayın gündemi sayfasındaki slider */
 @media (max-width: 768px) {
+  .carousel {
+    margin: 3rem 0;
+  }
   .carousel-caption h1,
   .carousel-caption p {
     font-size: 80%; /* Örneğin, mevcut boyutun %80'i */
@@ -117,5 +119,6 @@ body a {
   .carousel-caption a.btn {
     transform: scale(0.8);
     text-align: left;
+    margin-bottom: -2rem;
   }
 }
