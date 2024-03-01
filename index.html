@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Anasayfa</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       integrity="sha512-t6lVh5FtVMslxjCLPg5+LSJg42pFgm79r4i7HzG7Ti1ul3ZYAm5e+PE2mXz6At/aVGqJKf0rVWAs3ppkN7Y21w=="
       crossorigin="anonymous"
-    />ggleapis.com" />
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -42,20 +48,22 @@
               <a
                 class="nav-link active text-white"
                 aria-current="page"
-                href="#services"
-                >SERVICES</a
+                href="index.html"
+                >ANASAYFA</a
               >
             </li>
             <li class="nav-item pe-4">
-              <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+              <a class="nav-link text-white" href="uzay-kesfi.html"
+                >UZAY KEŞFİ</a
+              >
             </li>
             <li class="nav-item pe-4">
-              <a class="nav-link text-white" href="#about">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white text-uppercase" href="#team"
-                >Yerli Ve Milli Teknolojiler</a
+              <a class="nav-link text-white" href="gundem.html"
+                >UZAYIN GÜNDEMİ</a
               >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-white" href="haberler.html">HABERLER</a>
             </li>
           </ul>
         </div>
@@ -69,9 +77,9 @@
             <div class="m-3 text-center text-md-start">
               <h1
                 class="fw-bold text-white"
-                style="font-size: 3rem; letter-spacing: 5px"
+                style="font-size: 3rem; letter-spacing: 10px"
               >
-                <span class="d-inline d-md-block">SPACE</span>
+                <span class="d-inline d-md-block">UZAY</span>
               </h1>
             </div>
             <div class="m-3 text-center text-md-start">
@@ -88,7 +96,7 @@
           <div class="col-md-6 text-center text-md-end">
             <div class="m-3">
               <a
-                href="kesfet.html"
+                href="uzay-kesfi.html"
                 class="btn btn-outline-light fs-3 text-uppercase"
                 >Keşfet</a
               >
@@ -97,82 +105,87 @@
         </div>
       </div>
     </header>
-    <!-- !keşfet bolumu -->
-    <section id="kesfet">
+    <!-- ! Uzayın Gündemi bolumu -->
+    <section id="gundem">
       <div class="container my-5">
         <h1
           class="text-center text-uppercase"
           style="font-family: Montserrat, sans-serif"
         >
-          Uzayı Keşfet 
+          Uzayın Gündemi
         </h1>
-        <div class="row g-5 mt-5">
+        <div class="row mt-5 d-flex align-items-center">
           <div class="col-md-8 mb-4">
             <div class="card">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <div class="card-body">
-                    <h6 class="card-category">Uzay</h6>
-                    <h5 class="card-title">
-                      Jüpiter'in uydusu Callisto'nun atmosferinde karbondioksit
-                      gazı tespit edildi
-                    </h5>
-                    <p class="card-text">
-                      Callisto'nun atmosferinde bulunan karbondioksit gazı,
-                      Dünya'daki yaşamın sürdürülmesine yardımcı olana benzer
-                      karmaşık bir karbon döngüsüne sahip olduğuna işaret ediyor
-                    </p>
-                    <span
-                      class="badge bg-secondary"
-                      style="position: absolute; bottom: 0; right: 1rem"
-                      >Yeni</span
-                    >
+              <a href="card-icerik.html"
+                ><div class="row g-0">
+                  <div class="col-md-4">
+                    <div class="card-body">
+                      <h6 class="card-category">Uzay</h6>
+                      <h5 class="card-title">
+                        Jüpiter'in uydusu Callisto'nun atmosferinde
+                        karbondioksit gazı tespit edildi
+                      </h5>
+                      <p class="card-text">
+                        Callisto'nun atmosferinde bulunan karbondioksit gazı,
+                        Dünya'daki yaşamın sürdürülmesine yardımcı olana benzer
+                        karmaşık bir karbon döngüsüne sahip olduğuna işaret
+                        ediyor
+                      </p>
+                      <span
+                        class="badge bg-secondary"
+                        style="position: absolute; bottom: 0; right: 1rem"
+                        >Yeni</span
+                      >
+                    </div>
                   </div>
-                </div>
-                <div class="card-b-img col-md-8">
-                  <img class="card-img" src="img/galaksi.jpg" alt="" />
-                </div>
-              </div>
+                  <div class="card-b-img col-md-8">
+                    <img class="card-img" src="img/galaksi.png" alt="" />
+                  </div></div
+              ></a>
             </div>
           </div>
           <div class="col-md-4 mb-4">
             <div class="card mb-4">
-              <div class="row g-0">
-                <div class="card-b-img col-md-6">
-                  <img class="card-img" src="img/kesfet3.jpg" alt="" />
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <h6 class="card-category">Uzay</h6>
-                    <h5 class="card-title">
-                      Perseus ve Auriga takımyıldızlarını nasıl tespit
-                      edebilirim?
-                    </h5>
+              <a href="card-icerik.html"
+                ><div class="row g-0">
+                  <div class="card-b-img col-md-5">
+                    <img class="card-img" src="img/kesfet3.jpg" alt="" />
                   </div>
-                </div>
-              </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h6 class="card-category">Uzay</h6>
+                      <h5 class="card-title">
+                        Perseus ve Auriga takımyıldızlarını nasıl tespit
+                        edebilirim?
+                      </h5>
+                    </div>
+                  </div>
+                </div></a
+              >
             </div>
-            <div class="card mb-4">
-              <div class="row g-0">
-                <div class="card-b-img col-md-6">
-                  <img class="card-img" src="img/kesfet3.jpg" alt="" />
-                  <!-- * img 506-506 boyutlarında -->
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <h6 class="card-category">Uzay</h6>
-                    <h5 class="card-title">
-                      Perseus ve Auriga takımyıldızlarını nasıl tespit
-                      edebilirim?
-                    </h5>
+            <div class="card">
+              <a href="card-icerik.html">
+                <div class="row g-0">
+                  <div class="card-b-img col-md-5">
+                    <img class="card-img" src="img/kesfet2.png" alt="" />
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h6 class="card-category">Uzay</h6>
+                      <h5 class="card-title">
+                        Uzay kapsülü, uzayda yetiştirilen antiviral ilaçla
+                        Dünya'ya dönüyor
+                      </h5>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
         <div class="text-end">
-          <a href="kesfet.html" class="btn btn-all">
+          <a href="gundem.html" class="btn btn-all">
             Tümünü Gör<i class="fa-solid fa-arrow-right-long ms-2"></i>
           </a>
         </div>
@@ -236,11 +249,15 @@
                   <i class="fa-solid fa-rocket fs-1"></i>
                 </div>
               </div>
-              <img src="img/card1.jpg" alt="yakin" class="img-fluid w-100" />
+              <img
+                src="img/alpergezeravci_3.jpg"
+                alt="yakin"
+                class="img-fluid w-100"
+              />
             </div>
             <a class="text-decoration-none text-dark" href="#">
               <div class="card-body mt-2">
-                <h5>ALPER GEZERAVCI YURDA DÖNDÜ</h5>
+                <h5>Alper Gezeravcı'nın İlk Durağı Konya oldu</h5>
                 <hr />
                 <div>
                   <span class="badge text-bg-light">12 Şubat 2024</span>
@@ -278,11 +295,15 @@
                   <i class="fa-solid fa-rocket fs-1"></i>
                 </div>
               </div>
-              <img src="img/card1.jpg" alt="yakin" class="img-fluid w-100" />
+              <img
+                src="img/alpergezeravci_2.jpg"
+                alt="yakin"
+                class="img-fluid w-100"
+              />
             </div>
             <a class="text-decoration-none text-dark" href="#">
               <div class="card-body mt-2">
-                <h5>ALPER GEZERAVCI YURDA DÖNDÜ</h5>
+                <h5>Alper Gezeravcı Dünya'ya İndi</h5>
                 <hr />
                 <div>
                   <span class="badge text-bg-light">12 Şubat 2024</span>
@@ -299,11 +320,15 @@
                   <i class="fa-solid fa-rocket fs-1"></i>
                 </div>
               </div>
-              <img src="img/card1.jpg" alt="yakin" class="img-fluid w-100" />
+              <img
+                src="img/alpergezeravcı_4.jpg"
+                alt="yakin"
+                class="img-fluid w-100"
+              />
             </div>
             <a class="text-decoration-none text-dark" href="#">
               <div class="card-body mt-2">
-                <h5>ALPER GEZERAVCI YURDA DÖNDÜ</h5>
+                <h5>Alper Gezeravcı'nın Dönüş Yolculuğu Başladı</h5>
                 <hr />
                 <div>
                   <span class="badge text-bg-light">12 Şubat 2024</span>
@@ -313,9 +338,9 @@
           </div>
         </div>
         <div class="text-end mt-5">
-          <button type="button" class="btn btn-all">
+          <a href="haberler.html" class="btn btn-all">
             Tümünü Gör<i class="fa-solid fa-arrow-right-long ms-2"></i>
-          </button>
+          </a>
         </div>
       </div>
     </section>
@@ -324,29 +349,51 @@
       <div class="container" style="padding-top: 6rem">
         <div class="row justify-content-between">
           <div class="col-md-3 mb-5">
-            <h5 class="text-white mb-4">Astronomi Hakkında</h5>
+            <h5 class="text-white mb-4">Uzayı Keşfet</h5>
             <p>
-              <a class="link-text text-decoration-none" href="#">Astronomi</a>
+              <a class="link-text text-decoration-none" href="#">Gezegenler</a>
             </p>
             <p>
-              <a class="link-text text-decoration-none" href="#">Astronomi</a>
+              <a class="link-text text-decoration-none" href="#">Yıldızlar</a>
             </p>
             <p>
-              <a class="link-text text-decoration-none" href="#">Astronomi</a>
+              <a class="link-text text-decoration-none" href="#">Galaksiler</a>
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#"
+                >Kara Delikler</a
+              >
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#"
+                >Kozmik Olaylar</a
+              >
             </p>
           </div>
           <div class="col-md-3 mb-5">
-            <h6 class="text-white mb-4">Astronomi Hakkında</h6>
+            <h5 class="text-white mb-4">Site Haritası</h5>
             <p>
-              <a class="link-text text-decoration-none" href="#">Astronomi</a>
+              <a class="link-text text-decoration-none" href="index.html"
+                >Anasayfa</a
+              >
             </p>
             <p>
-              <a class="link-text text-decoration-none" href="#">Astronomi</a>
+              <a class="link-text text-decoration-none" href="gundem.html"
+                >Uzayın Gündemi</a
+              >
             </p>
             <p>
-              <a class="link-text text-decoration-none" href="#">Astronomi</a>
+              <a class="link-text text-decoration-none" href="#nedir"
+                >Astronomi Nedir</a
+              >
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="haberler.html"
+                >Haberler</a
+              >
             </p>
           </div>
+
           <div class="offset-xl-2 col-md-4 mb-5">
             <h6 class="text-white text-white mb-4">Sitemize Abone Olun</h6>
             <p style="color: #c7c8cc">

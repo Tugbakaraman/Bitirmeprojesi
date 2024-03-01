@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzay Keşfi</title>
+    <link rel="stylesheet" href="k-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-t6lVh5FtVMslxjCLPg5+LSJg42pFgm79r4i7HzG7Ti1ul3ZYAm5e+PE2mXz6At/aVGqJKf0rVWAs3ppkN7Y21w=="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- *nav baslangic -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-2">
+      <div class="container">
+        <a class="navbar-brand text-uppercase" href="index.html"
+          >Bitirme Projesi</a
+        >
+        <button
+          class="navbar-toggler text-white custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2">
+            <li class="nav-item pe-4">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >ANASAYFA</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-white" href="uzay-kesfi.html"
+                >UZAY KEŞFİ</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-white" href="gundem.html"
+                >UZAYIN GÜNDEMİ</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link text-white" href="haberler.html">HABERLER</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- *header-card lar -->
+    <section style="padding: 8rem 0; background-color: #0b0b0b">
+      <div class="header-card container">
+        <div class="row no-gutters g-4 d-flex justify-content-center">
+          <div class="col-2 col-md-2">
+            <div class="card">
+              <img
+                class="w-100 h-auto"
+                src="img/gezegen.png"
+                alt="gezegenler"
+              />
+              <div class="overlay">
+                <div class="overlay-content">
+                  <p>Gezegenler</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="card">
+              <img
+                class="w-100 h-auto"
+                src="img/kesfet/yildizlar1.png"
+                alt="gezegenler"
+              />
+              <div class="overlay">
+                <div class="overlay-content">
+                  <p>Yıldızlar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="card">
+              <img
+                class="w-100 h-auto"
+                src="img/kesfet/galaksiler.png"
+                alt="gezegenler"
+              />
+              <div class="overlay">
+                <div class="overlay-content">
+                  <p>Galaksiler</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="card">
+              <img
+                class="w-100 h-auto"
+                src="img/kesfet/karadelikler.png"
+                alt="gezegenler"
+              />
+              <div class="overlay">
+                <div class="overlay-content">
+                  <p>Kara Delikler</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="card">
+              <img
+                class="w-100 h-auto"
+                src="img/kesfet/kozmik.png"
+                alt="gezegenler"
+              />
+              <div class="overlay">
+                <div class="overlay-content">
+                  <p>Kozmik Olaylar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *kategorilere göre cardlar -->
+    <section>
+      <div class="bolum" id="gezegenler">
+        <div class="container my-5">
+          <h1 class="text-center">GEZEGENLER</h1>
+          <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/neptun.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Neptün’ün Sanıldığı Kadar Mavi Olmadığı Ortaya Çıktı
+                  </h5>
+                  <p class="card-text">
+                    Neptün’ün gerçek renginin, bilinen parlak mavi görüntüsünün
+                    aksine Uranüs’ünkine benzer şekilde soluk mavi olduğu
+                    anlaşıldı.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Gezegenler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/dunya.jpg" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Güneş Sistemini Tanıyalım: Dünya</h5>
+                  <p class="card-text">
+                    Güneş sistemindeki dört karasal gezegen arasında en
+                    büyüğüdür. Yüzeyinde suyun sıvı hâlde bulunduğunu ve
+                    üzerinde yaşam olduğunu kesin şekilde bildiğimiz tek gök
+                    cismi Dünya’dır.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Gezegenler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/saturn.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Satürn’ün Halkaları Kaç Yaşında?</h5>
+                  <p class="card-text">
+                    Bir grup gök bilimcinin yakın zamanlarda Science Advances’ta
+                    yayımladıkları bir makaleye göre Satürn’ün halkaları en
+                    fazla 400 milyon yaşında olabilir.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Gezegenler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/venus.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Güneş Sistemini Tanıyalım: Venüs</h5>
+                  <p class="card-text">
+                    Güneş sisteminde Güneş’e yakın ikinci gezegen olan Venüs’ü
+                    daha yakından tanımak ister misiniz?
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Gezegenler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bolum" id="yldzlar">
+        <div class="container my-5">
+          <h1 class="text-center">YILDIZLAR</h1>
+          <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Bir Yıldız Ne Kadar Soğuk Olabilir?
+                  </h5>
+                  <p class="card-text">
+                    Yeni doğmuş, milyarlarca yıl yaşamaya devam edecek bir
+                    yıldızın yüzey sıcaklığı ne kadar düşük olabilir?
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Yıldızlar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz2.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Yıldızlar Nasıl Yaşar ve Ölür?</h5>
+                  <p class="card-text">
+                    Yıldızların nasıl oluştuğunu, zaman içinde geçirdikleri
+                    değişimleri ve ömürlerinin sonuna geldikten sonra yıldızları
+                    neler beklediğini Güneş örneği üzerinden açıklıyor.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Yıldızlar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz3.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Kutup Yıldızı’nı Gökyüzünde Nasıl Buluruz?
+                  </h5>
+                  <p class="card-text">
+                    Kutup Yıldızı'nı bulmanın en kolay yolu önce Büyük Ayı
+                    Takımyıldızı'nı aramaktan geçer.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Yıldızlar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz4.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    İlk Yıldızlar Bilinenden Daha Önce Ortaya Çıkmış
+                  </h5>
+                  <p class="card-text">
+                    Hubble Uzay Teleskobu ile yapılan gözlemler ilk yıldızların
+                    tahmin edilenden daha erken bir dönemde oluşmaya başladığını
+                    gösteriyor.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Yıldızlar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bolum" id="galaksiler">
+        <div class="container my-5">
+          <h1 class="text-center">GALAKSİLER</h1>
+          <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/galaksi.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Evren “Kırışık” Halden “Galaksi Üreten” Hale Nasıl Geçti?
+                  </h5>
+                  <p class="card-text">
+                    Kozmoloji ile uğraşan teorisyenler mükemmel bir evren modeli
+                    oluşturduklarında modelleri galaksileri içermiyebilir.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Galaksiler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/galaksi.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Evren “Kırışık” Halden “Galaksi Üreten” Hale Nasıl Geçti
+                  </h5>
+                  <p class="card-text">
+                    Kozmoloji ile uğraşan teorisyenler mükemmel bir evren modeli
+                    oluşturduklarında modelleri galaksileri içermiyebilir.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Galaksiler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/galaksi.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Evren “Kırışık” Halden “Galaksi Üreten” Hale Nasıl Geçti?
+                  </h5>
+                  <p class="card-text">
+                    Kozmoloji ile uğraşan teorisyenler mükemmel bir evren modeli
+                    oluşturduklarında modelleri galaksileri içermiyebilir.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Galaksiler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/galaksi.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Evren “Kırışık” Halden “Galaksi Üreten” Hale Nasıl Geçti
+                  </h5>
+                  <p class="card-text">
+                    Kozmoloji ile uğraşan teorisyenler mükemmel bir evren modeli
+                    oluşturduklarında modelleri galaksileri içermiyebilir.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Galaksiler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bolum" id="kara-delikler">
+        <div class="container my-5">
+          <h1 class="text-center">KARA DELİKLER</h1>
+          <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz2.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Kara Delik Nasıl Oluşur?</h5>
+                  <p class="card-text">
+                    Kara delikler, uzayda yol alan hiçbir maddenin ve ışık da
+                    dahil hiçbir radyasyonun kaçamayacağı kadar büyük kütleçekim
+                    alanlarıdır.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KaraDelikler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz2.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Kara Delik Nasıl Oluşur?</h5>
+                  <p class="card-text">
+                    Kara delikler, uzayda yol alan hiçbir maddenin ve ışık da
+                    dahil hiçbir radyasyonun kaçamayacağı kadar büyük kütleçekim
+                    alanlarıdır.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KaraDelikler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz2.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Kara Delik Nasıl Oluşur?</h5>
+                  <p class="card-text">
+                    Kara delikler, uzayda yol alan hiçbir maddenin ve ışık da
+                    dahil hiçbir radyasyonun kaçamayacağı kadar büyük kütleçekim
+                    alanlarıdır.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KaraDelikler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz2.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Kara Delik Nasıl Oluşur?</h5>
+                  <p class="card-text">
+                    Kara delikler, uzayda yol alan hiçbir maddenin ve ışık da
+                    dahil hiçbir radyasyonun kaçamayacağı kadar büyük kütleçekim
+                    alanlarıdır.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KaraDelikler
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bolum" id="kozmik-olaylar">
+        <div class="container my-5">
+          <h1 class="text-center">KOZMİK OLAYLAR</h1>
+          <div class="row mt-5">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz4.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Neptün’ün Sanıldığı Kadar Mavi Olmadığı Ortaya Çıktı
+                  </h5>
+                  <p class="card-text">
+                    Neptün’ün gerçek renginin, bilinen parlak mavi görüntüsünün
+                    aksine Uranüs’ünkine benzer şekilde soluk mavi olduğu
+                    anlaşıldı.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KozmikOlaylar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz4.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Neptün’ün Sanıldığı Kadar Mavi Olmadığı Ortaya Çıktı
+                  </h5>
+                  <p class="card-text">
+                    Neptün’ün gerçek renginin, bilinen parlak mavi görüntüsünün
+                    aksine Uranüs’ünkine benzer şekilde soluk mavi olduğu
+                    anlaşıldı.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KozmikOlaylar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz4.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Neptün’ün Sanıldığı Kadar Mavi Olmadığı Ortaya Çıktı
+                  </h5>
+                  <p class="card-text">
+                    Neptün’ün gerçek renginin, bilinen parlak mavi görüntüsünün
+                    aksine Uranüs’ünkine benzer şekilde soluk mavi olduğu
+                    anlaşıldı.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KozmikOlaylar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img class="w-100 h-auto" src="img/kesfet/yildiz4.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Neptün’ün Sanıldığı Kadar Mavi Olmadığı Ortaya Çıktı
+                  </h5>
+                  <p class="card-text">
+                    Neptün’ün gerçek renginin, bilinen parlak mavi görüntüsünün
+                    aksine Uranüs’ünkine benzer şekilde soluk mavi olduğu
+                    anlaşıldı.
+                  </p>
+                  <div class="tags">
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #KozmikOlaylar
+                    </div>
+                    <div class="badge rounded-pill text-bg-secondary">
+                      #Uzay
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer style="width: 100%; background-color: black">
+      <div class="container" style="padding-top: 6rem">
+        <div class="row justify-content-between">
+          <div class="col-md-3 mb-5">
+            <h5 class="text-white mb-4">Uzayı Keşfet</h5>
+            <p>
+              <a class="link-text text-decoration-none" href="#">Gezegenler</a>
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#">Yıldızlar</a>
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#">Galaksiler</a>
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#"
+                >Kara Delikler</a
+              >
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#"
+                >Kozmik Olaylar</a
+              >
+            </p>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h5 class="text-white mb-4">Site Haritası</h5>
+            <p>
+              <a class="link-text text-decoration-none" href="index.html"
+                >Anasayfa</a
+              >
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="gundem.html"
+                >Uzayın Gündemi</a
+              >
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="#nedir"
+                >Astronomi Nedir</a
+              >
+            </p>
+            <p>
+              <a class="link-text text-decoration-none" href="haberler.html"
+                >Haberler</a
+              >
+            </p>
+          </div>
+
+          <div class="offset-xl-2 col-md-4 mb-5">
+            <h6 class="text-white text-white mb-4">Sitemize Abone Olun</h6>
+            <p style="color: #c7c8cc">
+              Bizden gelen yeni ve heyecan verici şeylerin aylık haber edinin.
+            </p>
+            <div class="mb-3">
+              <input
+                class="ftr-inp bg-dark me-3"
+                type="email"
+                name="text"
+                placeholder="Email Adres"
+              />
+              <button
+                class="btn btn-outline-light mt-2"
+                style="width: 7rem"
+                type="button"
+              >
+                Abone Ol
+              </button>
+            </div>
+            <div class="footer-social mb-3">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-facebook m-1"
+                  style="font-size: larger; color: white"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-instagram m-1"
+                  style="font-size: larger; color: white"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-twitter m-1"
+                  style="font-size: larger; color: white"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-youtube m-1"
+                  style="font-size: larger; color: white"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center text-light p-4" style="background-color: #0b0b0b">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="https://bitirmeprojesi.com/"
+          >bitirmeprojesi.com</a
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/54d4fc1f2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

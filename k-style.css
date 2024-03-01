@@ -1,0 +1,114 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+.navbar {
+  display: flex;
+  background-color: black;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #637a9f !important; /* veya istediğiniz renk */
+}
+.header-card .card {
+  position: relative;
+  cursor: pointer;
+}
+.header-card .card .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-card .card .overlay-content {
+  color: white;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+.header-card .card:hover .overlay {
+  opacity: 1;
+}
+.header-card .card:hover img {
+  box-shadow: 0 0 10px rgb(252, 0, 0);
+}
+.header-card .card .overlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bolum .card {
+  cursor: pointer;
+  margin: 1rem auto;
+}
+.bolum .card-body {
+  height: 18rem;
+  overflow: hidden;
+  position: relative;
+}
+.bolum .card-body .tags {
+  position: absolute;
+  bottom: 1rem;
+}
+/* *haberler sayfasındaki kardlar */
+.news .card {
+  background-color: #0b0b0b;
+  color: white;
+  cursor: pointer;
+  margin: 3rem 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.featured-news .card {
+  height: 29rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+.featured-news .card-body span {
+  position: absolute;
+  bottom: 1rem;
+}
+.featured-news img {
+  max-height: 10rem;
+}
+.latest-news .card {
+  margin-bottom: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+.news .card:hover {
+  background-color: #61677a;
+}
+.featured-news .card:hover .card-body h5,
+.latest-news .card:hover .card-body h5 {
+  text-decoration: underline;
+  color: #637a9f;
+}
+.latest-news img {
+  min-height: 9rem;
+}
+/* *Pagination */
+.pagination .page-link {
+  background-color: #0b0b0b;
+  color: #fff;
+}
+/* *footer a linkleri */
+.link-text {
+  color: #c7c8cc;
+}
+/* *footer email input */
+.ftr-inp {
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  padding: 0.6rem 2rem;
+  font-size: 16px;
+  border-radius: 0.2rem;
+  color: #fff;
+}

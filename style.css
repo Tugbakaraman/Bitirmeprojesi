@@ -1,3 +1,6 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
 .navbar {
   display: flex;
   background-color: black;
@@ -14,12 +17,12 @@
 .masthead {
   height: 100lvh;
 }
-a {
-  text-decoration: none !important;
+body a {
+  text-decoration: none;
+  color: inherit;
 }
-/* *Kesfet bolumu */
+/* *anasayfa uzayın gündemi bolumu*/
 .card {
-  cursor: pointer;
   overflow: hidden;
 }
 .card-body {
@@ -41,15 +44,9 @@ a {
 .card:hover .card-img {
   transform: scale(1.1);
 }
-.haberler .haber-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
+.gundemcards .card img {
+  max-height: 14rem;
 }
-
 .haberler .haber-item {
   cursor: pointer;
   position: relative;
@@ -90,6 +87,11 @@ a {
 .border-right {
   border-right: 1px solid #acacac;
 }
+/* *Pagination */
+.pagination .page-link {
+  background-color: #0b0b0b;
+  color: #fff;
+}
 /* *footer a linkleri */
 .link-text {
   color: #c7c8cc;
@@ -104,4 +106,19 @@ a {
   font-size: 16px;
   border-radius: 0.2rem;
   color: #fff;
+}
+/* *Uzayın gündemi sayfasındaki slider */
+@media (max-width: 768px) {
+  .carousel {
+    margin: 3rem 0;
+  }
+  .carousel-caption h1,
+  .carousel-caption p {
+    font-size: 80%; /* Örneğin, mevcut boyutun %80'i */
+  }
+  .carousel-caption a.btn {
+    transform: scale(0.8);
+    text-align: left;
+    margin-bottom: -2rem;
+  }
 }
